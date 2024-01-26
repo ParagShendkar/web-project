@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(98, 106, 103);
+}
+main > section{
+    background-color: rgb(130, 142, 142);
+    width: 30%;
+}
+
+main > section > img{
+    width: 100%;
+    border-radius: 18px;
+    position: relative;
+}
+s
+main section div{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+main > section > div >.fa-circle-pause{
+    display: none;
+
+}
+main > section > #input-cont{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+main > section > #input-cont > input{
+    width: 50%;  
+}
+
+audio{
+    display: none;
+}
+
+#main-cont{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
