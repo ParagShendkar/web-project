@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/images.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+main div{
+    background-color: rgba(0, 0, 0, 0.415);
+    color: white;  
+}
+
+.attendanceContainer{
+    text-align: center;
+    padding: 1rem;
+    width: 25%;
+    border-radius: 10px;
+}
+
+#add{
+    background-color: #3498db;
+}
+
+#submit{
+    background-color: greenyellow;
+}
+
+/* Basic button styling */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+button:hover {
+  color: #ffffff;
+}
+
+  
